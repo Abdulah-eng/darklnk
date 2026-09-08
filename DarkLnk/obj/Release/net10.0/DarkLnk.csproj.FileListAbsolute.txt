@@ -1,0 +1,15 @@
+/workspace/DarkLnk/obj/Release/net10.0/DarkLnk.GeneratedMSBuildEditorConfig.editorconfig
+/workspace/DarkLnk/obj/Release/net10.0/DarkLnk.AssemblyInfoInputs.cache
+/workspace/DarkLnk/obj/Release/net10.0/DarkLnk.AssemblyInfo.cs
+/workspace/DarkLnk/obj/Release/net10.0/DarkLnk.csproj.CoreCompileInputs.cache
+/workspace/DarkLnk/bin/Release/net10.0/DarkLnk
+/workspace/DarkLnk/bin/Release/net10.0/DarkLnk.dll.config
+/workspace/DarkLnk/bin/Release/net10.0/DarkLnk.deps.json
+/workspace/DarkLnk/bin/Release/net10.0/DarkLnk.runtimeconfig.json
+/workspace/DarkLnk/bin/Release/net10.0/DarkLnk.dll
+/workspace/DarkLnk/bin/Release/net10.0/DarkLnk.pdb
+/workspace/DarkLnk/obj/Release/net10.0/DarkLnk.dll
+/workspace/DarkLnk/obj/Release/net10.0/refint/DarkLnk.dll
+/workspace/DarkLnk/obj/Release/net10.0/DarkLnk.pdb
+/workspace/DarkLnk/obj/Release/net10.0/DarkLnk.genruntimeconfig.cache
+/workspace/DarkLnk/obj/Release/net10.0/ref/DarkLnk.dll
