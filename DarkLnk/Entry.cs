@@ -12,8 +12,24 @@ namespace DarkLnk
 
         static void Main(string[] args)
         {
-            ParseArgs(args);
-            dl.BuildLink();
+            try
+            {
+                ParseArgs(args);
+                dl.BuildLink();
+                
+                Console.WriteLine();
+                Console.WriteLine("Operation completed successfully!");
+                Console.WriteLine("Press any key to exit...");
+                Console.ReadKey();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error: {ex.Message}");
+                Console.WriteLine($"Details: {ex.StackTrace}");
+                Console.WriteLine();
+                Console.WriteLine("Press any key to exit...");
+                Console.ReadKey();
+            }
         }
 
         public static void ParseArgs(string[] args)
